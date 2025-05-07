@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { truths, dares } from "../data/Questions";
-import Timer from "@/components/Timer";
+import Timer from "../components/Timer";
 
 function getRandom(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
