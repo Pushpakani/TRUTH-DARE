@@ -11,7 +11,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-purple-200 via-pink-100 to-yellow-100 flex flex-col justify-center items-center">
-      <h1 className="mx-auto text-4xl font-extrabold text-purple-700 mt-8 mb-4 drop-shadow-lg">
+      <h1 className="mx-auto text:xl sm:text-2xl md:text-4xl font-extrabold text-purple-700 mt-8 mb-4 drop-shadow-lg">
         🔥 Truth or Dare Game 🔥
       </h1>
       {!players.length ? (
